@@ -12,19 +12,19 @@ Plan of Execution:
 
 Project Organization:
 
-GallWaspsDiscreteTraitEvolution
+./GallWaspsDiscreteTraitEvolution
 
-  PhylogeneticsFinalProject
+  ./PhylogeneticsFinalProject
   
-    enumerate.py (python script to convert between PAUP nexus files -> MrBayes nexus files 
+    - enumerate.py (python script to convert between PAUP nexus files -> MrBayes nexus files 
     
-    GallWasps_Morph.nex (this is the orginal dataset with MrBayes nexus compatibility)
+    - GallWasps_Morph.nex (this is the orginal dataset with MrBayes nexus compatibility)
     
-    MrBayesManual.pdf (manual from MrBayes documentation)
+    - MrBayesManual.pdf (manual from MrBayes documentation)
     
-    GallWaspsMorphologyORGINAL.nex (original PAUP compatible nexus data file)
+    - GallWaspsMorphologyORGINAL.nex (original PAUP compatible nexus data file)
     
-    MrBayesRun.txt (initial log output of MrBayes compatible data)
+    - MrBayesRun.txt (initial log output of MrBayes compatible data)
     
-    test.txt (contains the alphabetic character sequences for original morphology dataset)
+    - test.txt (contains the alphabetic character sequences for original morphology dataset)
     
