@@ -12,9 +12,9 @@ Plan of Execution:
 
 Project Organization:
 
-./GallWaspsDiscreteTraitEvolution
+GallWaspsDiscreteTraitEvolution
 
-  ./PhylogeneticsFinalProject
+  PhylogeneticsFinalProject
   
     enumerate.py (python script to convert between PAUP nexus files -> MrBayes nexus files 
     
