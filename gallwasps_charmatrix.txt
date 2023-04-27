@@ -1,0 +1,45 @@
+
+Andricus.quercusradicis        1	0
+Antistrophus.lygodesmiaepisum  1	0
+Asiocynips.lugubris            -	-
+Asiocynips.pannucea            -	-
+Aulacidea.phlomica             0	0
+Aulacidea.tragopogonis         1	0
+Aulacidea.verticillica         0	1
+Aylax.papaveris                1	1
+Barbotinia.oraniensis          0	1
+Biorhiza.pallida               1	01
+Cecconia.valerianellae         0	1
+Ceroptres.clavicornis          -	-
+Diastrophus.turgidus           1	0
+Diplolepis.rosae               1	01
+Eschatocerus.acaciae           1	0
+Euceroptres.montanus           -	-
+Gonaspis.potentillae           0	0
+Hedickiana.levantina           1	0
+Himalocynips.vigintilis        -	-
+Ibalia.rufipes                 -	-
+Iraella.luteipes               0	0
+Isocolus.rogenhoferi           0	1
+Liposthenes.glechomae          1	0
+Liposthenes.kerneri            0	1
+Neaylax.verbenaca              0	1
+Neuroterus.numismalis          0	0
+Panteliella.fedtschenkoi       1	0
+Paramblynotus.zonatus          -	-
+Parnips.nigripes               -	-
+Pediaspis.aceris               0	0
+Periclistus.brandtii           -	-
+Phanacis.centaureae            0	0
+Phanacis.hypochoeridis         1	0
+Phanacis.phlomidis             0	0
+Plagiotrochus.quercusilicis    1	01
+Rhodus.oriundus                1	1
+Synergus.crassicornis          -	-
+Synophromorpha.rubi            -	-
+Timaspis.phoenixopodos         1	0
+Vetustia.investigata           0	1
+Xestophanes.potentillae        1	0
+
+
+

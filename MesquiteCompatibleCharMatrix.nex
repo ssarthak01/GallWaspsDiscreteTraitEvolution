@@ -1,0 +1,77 @@
+#NEXUS
+[written Thu Apr 20 15:02:15 MDT 2023 by Mesquite  version 3.70 (build 940) at cu-tcom-8-10.203.62.174.int.colorado.edu/10.203.62.174]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=41;
+	TAXLABELS
+		Andricus.quercusradicis Antistrophus.lygodesmiaepisum Asiocynips.lugubris Asiocynips.pannucea Aulacidea.phlomica Aulacidea.tragopogonis Aulacidea.verticillica Aylax.papaveris Barbotinia.oraniensis Biorhiza.pallida Cecconia.valerianellae Ceroptres.clavicornis Diastrophus.turgidus Diplolepis.rosae Eschatocerus.acaciae Euceroptres.montanus Gonaspis.potentillae Hedickiana.levantina Himalocynips.vigintilis Ibalia.rufipes Iraella.luteipes Isocolus.rogenhoferi Liposthenes.glechomae Liposthenes.kerneri Neaylax.verbenaca Neuroterus.numismalis Panteliella.fedtschenkoi Paramblynotus.zonatus Parnips.nigripes Pediaspis.aceris Periclistus.brandtii Phanacis.centaureae Phanacis.hypochoeridis Phanacis.phlomidis Plagiotrochus.quercusilicis Rhodus.oriundus Synergus.crassicornis Synophromorpha.rubi Timaspis.phoenixopodos Vetustia.investigat Xestophanes.potentillae 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  GallWaspsMesquiteCharMatrix;
+	LINK TAXA = Taxa;
+	DIMENSIONS  NCHAR=2;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K M N P Q R S T U V W X Y Z a b c d e f g h j k m n p q r s t u v w x y z";
+	CHARSTATELABELS 
+		1  /  single_chamber 'multi-chamber',
+		2  /  reproductive vegetative ; 
+	MATRIX
+	Andricus.quercusradicis        10
+	Antistrophus.lygodesmiaepisum  10
+	Asiocynips.lugubris            --
+	Asiocynips.pannucea            --
+	Aulacidea.phlomica             00
+	Aulacidea.tragopogonis         10
+	Aulacidea.verticillica         01
+	Aylax.papaveris                11
+	Barbotinia.oraniensis          01
+	Biorhiza.pallida               1(0 1)
+	Cecconia.valerianellae         01
+	Ceroptres.clavicornis          --
+	Diastrophus.turgidus           10
+	Diplolepis.rosae               1(0 1)
+	Eschatocerus.acaciae           10
+	Euceroptres.montanus           --
+	Gonaspis.potentillae           00
+	Hedickiana.levantina           10
+	Himalocynips.vigintilis        --
+	Ibalia.rufipes                 --
+	Iraella.luteipes               00
+	Isocolus.rogenhoferi           01
+	Liposthenes.glechomae          10
+	Liposthenes.kerneri            01
+	Neaylax.verbenaca              01
+	Neuroterus.numismalis          00
+	Panteliella.fedtschenkoi       10
+	Paramblynotus.zonatus          --
+	Parnips.nigripes               --
+	Pediaspis.aceris               00
+	Periclistus.brandtii           --
+	Phanacis.centaureae            00
+	Phanacis.hypochoeridis         10
+	Phanacis.phlomidis             00
+	Plagiotrochus.quercusilicis    1(0 1)
+	Rhodus.oriundus                11
+	Synergus.crassicornis          --
+	Synophromorpha.rubi            --
+	Timaspis.phoenixopodos         10
+	Vetustia.investigat            01
+	Xestophanes.potentillae        10
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = GallWaspsMesquiteCharMatrix)  =  unord:  1- 2;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = GallWaspsMesquiteCharMatrix)  =  'Mk1 (est.)':  1- 2;
+END;
+
+

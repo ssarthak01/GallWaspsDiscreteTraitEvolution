@@ -1,0 +1,709 @@
+Last login: Wed Apr 26 11:42:29 on ttys005
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Sarthaks-MacBook-Pro-2:~ sarthakshukla$ cd /Users/sarthakshukla/Downloads/BayesTraitsV4.0.1-OSX-ARM
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+BayesTraits take a tree file and a data file, it is run form the command line.
+Please read the manual for more information.
+Press enter to leave.
+
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Could not find a matching taxa name for data point Vetustia.investigata
+Could not load data for taxa Vetustia.investigat
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    2
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1
+    Options:
+    Model: Discrete: Independent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 2015585446
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 4
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    alpha1 None
+    beta1 None
+    alpha2 None
+    beta2 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    run
+
+Options:
+Model: Discrete: Independent
+Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+Save Initial Trees: False
+Save Trees: False
+Summary: False
+Seed: 2015585446
+Analsis Type: Maximum Likelihood
+ML Attempt Per Tree: 10
+ML Max Evaluations: 20000
+ML Tolerance: 0.000001
+ML Algorithm: BOBYQA
+Rate Range: 0.000000 - 100.000000
+Precision: 64 bits
+Cores: 1
+No of Rates: 4
+Base frequency (PI's): None
+Pis used in ancestral state estimation: Yes
+Character Symbols: 00,01,10,11
+Using a covarion model: False
+Normalise Q Matrix: False
+Restrictions:
+alpha1 None
+beta1 None
+alpha2 None
+beta2 None
+Tree Information
+Trees: 1
+Taxa: 41
+Sites: 1
+States: 4
+Tree No Lh Elapsed Seconds
+0 -36.527288 0.000000
+Sec: 0.000000
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    3
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1
+    Options:
+    Model: Discrete: Dependent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 3575866625
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 8
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    q12 None
+    q13 None
+    q21 None
+    q24 None
+    q31 None
+    q34 None
+    q42 None
+    q43 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    run
+
+Options:
+Model: Discrete: Dependent
+Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+Save Initial Trees: False
+Save Trees: False
+Summary: False
+Seed: 3575866625
+Analsis Type: Maximum Likelihood
+ML Attempt Per Tree: 10
+ML Max Evaluations: 20000
+ML Tolerance: 0.000001
+ML Algorithm: BOBYQA
+Rate Range: 0.000000 - 100.000000
+Precision: 64 bits
+Cores: 1
+No of Rates: 8
+Base frequency (PI's): None
+Pis used in ancestral state estimation: Yes
+Character Symbols: 00,01,10,11
+Using a covarion model: False
+Normalise Q Matrix: False
+Restrictions:
+q12 None
+q13 None
+q21 None
+q24 None
+q31 None
+q34 None
+q42 None
+q43 None
+Tree Information
+Trees: 1
+Taxa: 41
+Sites: 1
+States: 4
+Tree No Lh Elapsed Seconds
+0 -34.621181 1.000000
+Sec: 1.000000
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    3
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1
+    Options:
+    Model: Discrete: Dependent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 4057164122
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 8
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    q12 None
+    q13 None
+    q21 None
+    q24 None
+    q31 None
+    q34 None
+    q42 None
+    q43 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    restrict q12 q34
+    restrict q21 q43
+    run
+
+Options:
+Model: Discrete: Dependent
+Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+Save Initial Trees: False
+Save Trees: False
+Summary: False
+Seed: 4057164122
+Analsis Type: Maximum Likelihood
+ML Attempt Per Tree: 10
+ML Max Evaluations: 20000
+ML Tolerance: 0.000001
+ML Algorithm: BOBYQA
+Rate Range: 0.000000 - 100.000000
+Precision: 64 bits
+Cores: 1
+No of Rates: 8
+Base frequency (PI's): None
+Pis used in ancestral state estimation: Yes
+Character Symbols: 00,01,10,11
+Using a covarion model: False
+Normalise Q Matrix: False
+Restrictions:
+q12 q34
+q13 None
+q21 q43
+q24 None
+q31 None
+q34 None
+q42 None
+q43 None
+Tree Information
+Trees: 1
+Taxa: 41
+Sites: 1
+States: 4
+Tree No Lh Elapsed Seconds
+0 -34.623236 0.000000
+Sec: 0.000000
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    3
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1
+    Options:
+    Model: Discrete: Dependent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 3289606625
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 8
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    q12 None
+    q13 None
+    q21 None
+    q24 None
+    q31 None
+    q34 None
+    q42 None
+    q43 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    restrict q13 q24
+    restrict q31 q42
+    run
+
+Options:
+Model: Discrete: Dependent
+Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+Save Initial Trees: False
+Save Trees: False
+Summary: False
+Seed: 3289606625
+Analsis Type: Maximum Likelihood
+ML Attempt Per Tree: 10
+ML Max Evaluations: 20000
+ML Tolerance: 0.000001
+ML Algorithm: BOBYQA
+Rate Range: 0.000000 - 100.000000
+Precision: 64 bits
+Cores: 1
+No of Rates: 8
+Base frequency (PI's): None
+Pis used in ancestral state estimation: Yes
+Character Symbols: 00,01,10,11
+Using a covarion model: False
+Normalise Q Matrix: False
+Restrictions:
+q12 None
+q13 q24
+q21 None
+q24 None
+q31 q42
+q34 None
+q42 None
+q43 None
+Tree Information
+Trees: 1
+Taxa: 41
+Sites: 1
+States: 4
+Tree No Lh Elapsed Seconds
+0 -34.627144 0.000000
+Sec: 0.000000
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    3
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1  
+    Options:
+    Model: Discrete: Dependent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 974350995
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 8
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    q12 None
+    q13 None
+    q21 None
+    q24 None
+    q31 None
+    q34 None
+    q42 None
+    q43 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    resrict q12 q13
+    Unknown command: resrict
+    (base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    BayesTraits V4.0.1 (Mar 27 2023)
+    Mark Pagel and Andrew Meade
+    www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    3
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1
+    Options:
+    Model: Discrete: Dependent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 85158561
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 8
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    q12 None
+    q13 None
+    q21 None
+    q24 None
+    q31 None
+    q34 None
+    q42 None
+    q43 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    restrict q12 q13
+    run
+
+Options:
+Model: Discrete: Dependent
+Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+Save Initial Trees: False
+Save Trees: False
+Summary: False
+Seed: 85158561
+Analsis Type: Maximum Likelihood
+ML Attempt Per Tree: 10
+ML Max Evaluations: 20000
+ML Tolerance: 0.000001
+ML Algorithm: BOBYQA
+Rate Range: 0.000000 - 100.000000
+Precision: 64 bits
+Cores: 1
+No of Rates: 8
+Base frequency (PI's): None
+Pis used in ancestral state estimation: Yes
+Character Symbols: 00,01,10,11
+Using a covarion model: False
+Normalise Q Matrix: False
+Restrictions:
+q12 q13
+q13 None
+q21 None
+q24 None
+q31 None
+q34 None
+q42 None
+q43 None
+Tree Information
+Trees: 1
+Taxa: 41
+Sites: 1
+States: 4
+Tree No Lh Elapsed Seconds
+0 -34.490032 0.000000
+Sec: 0.000000
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$ ./BayesTraitsV4 /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+BayesTraits V4.0.1 (Mar 27 2023)
+Mark Pagel and Andrew Meade
+www.evolution.reading.ac.uk
+
+Please select the model of evolution to use.
+
+1. MultiState
+2. Discrete: Independent
+3. Discrete: Dependant
+4. Continuous: Random Walk (Model A)
+5. Continuous: Directional (Model B)
+6. Continuous: Regression
+7. Independent Contrast
+8. Independent Contrast: Correlation
+9. Independent Contrast: Regression
+10. Discrete: Covarion
+11. Discrete: Heterogeneous
+12. Fat Tail
+13. Geo
+    3
+    Please select the analysis method to use.
+14. Maximum Likelihood.
+15. MCMC
+    1
+    Options:
+    Model: Discrete: Dependent
+    Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+    Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+    Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+    Save Initial Trees: False
+    Save Trees: False
+    Summary: False
+    Seed: 1762880288
+    Analsis Type: Maximum Likelihood
+    ML Attempt Per Tree: 10
+    ML Max Evaluations: 20000
+    ML Tolerance: 0.000001
+    ML Algorithm: BOBYQA
+    Rate Range: 0.000000 - 100.000000
+    Precision: 64 bits
+    Cores: 1
+    No of Rates: 8
+    Base frequency (PI's): None
+    Pis used in ancestral state estimation: Yes
+    Character Symbols: 00,01,10,11
+    Using a covarion model: False
+    Normalise Q Matrix: False
+    Restrictions:
+    q12 None
+    q13 None
+    q21 None
+    q24 None
+    q31 None
+    q34 None
+    q42 None
+    q43 None
+    Tree Information
+    Trees: 1
+    Taxa: 41
+    Sites: 1
+    States: 4
+    restrict q42 q43
+    run
+
+Options:
+Model: Discrete: Dependent
+Tree File Name: /Users/sarthakshukla/Desktop/MorphTest/GallWasps_Morph.nex.con.tre
+Data File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt
+Log File Name: /Users/sarthakshukla/Desktop/MorphTest/gallwasps_charmatrix.txt.Log.txt
+Save Initial Trees: False
+Save Trees: False
+Summary: False
+Seed: 1762880288
+Analsis Type: Maximum Likelihood
+ML Attempt Per Tree: 10
+ML Max Evaluations: 20000
+ML Tolerance: 0.000001
+ML Algorithm: BOBYQA
+Rate Range: 0.000000 - 100.000000
+Precision: 64 bits
+Cores: 1
+No of Rates: 8
+Base frequency (PI's): None
+Pis used in ancestral state estimation: Yes
+Character Symbols: 00,01,10,11
+Using a covarion model: False
+Normalise Q Matrix: False
+Restrictions:
+q12 None
+q13 None
+q21 None
+q24 None
+q31 None
+q34 None
+q42 q43
+q43 None
+Tree Information
+Trees: 1
+Taxa: 41
+Sites: 1
+States: 4
+Tree No Lh Elapsed Seconds
+0 -34.621149 0.000000
+Sec: 0.000000
+(base) Sarthaks-MacBook-Pro-2:BayesTraitsV4.0.1-OSX-ARM sarthakshukla$
