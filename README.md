@@ -21,6 +21,7 @@ b) Comparative Biology Methods:
 
 Results:
 
+![Screenshot](ReadME_images/ConTree.png)
 
 Discussion:
 
