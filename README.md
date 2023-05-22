@@ -1,6 +1,8 @@
 # GallWaspsDiscreteTraitEvolution
 EBIO 4290/5290 Final Project: Evolution of Number of Gall Chambers in Association to Gall Location
 
+By Sarthak Shukla
+
 Intro:
 
 What are gall wasps? Insects, Cynipidae, that inject their eggs into plant tissues resulting in the host plant forming an external structure around the larvae, known as a gall. The gall acts as a protective layer for the larvae and is their source of nutrients. Moreover, the gall is created from the plant tissue itself. Gall structure varies across all Cynipidae and some of these differences include: complexity, number of chambers, attachment form, and location of the galls. Due to the fact that the larvae are extremely dependent on the gall for nutrition, it seems that the location of the gall will influence the the nutritional value of the gall and therefore influence the gall structure. Thus, I hypothesize that galls located on reproductive areas of the plant will present as mutli-chambered galls and locations on vegetative areas will present as single-chambered galls.
