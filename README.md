@@ -12,16 +12,20 @@ Methods & Materials:
 a) Phylogenetic Inference: 
  - Convert existing morphological nexus data on gall wasps to be executable in MrBayes: this required taking 41 character sequences for 41 taxa with each sequence containing 175 morphological characters and converting character encodings to be compatiable with MrBayes software
  - MrBayes software used to generate Baysesian consensus tree and generate 1000 Baysesian trees from the highest likelihood scored MCMC run: used an equal rates model with gamma distribution parameter estimation along with MCMC analysis over 2 runs with with 100,000 generations each and sampling 100 generations at a time and discarding the first 25% of runs. 
+ - Taxa Selection: ![Screenshot](ReadME_images/TaxaSelection.png)
  
 b) Comparative Biology Methods:
  - Created character data matrix using the data collected in a study by Ronquist et al
- -  Trait Data matrix: Transcribed the data attributes described in paper to Mesquite software character Matrix
+ -  Trait Data matrix: Transcribed the data attributes described in paper to Mesquite software character Matrix ![Screenshot](ReadME_images/TraitMatrix.png)
  -  Built a mirror tree: Used a mirror tree to map correlated traits with respective colors in Mesquite using parsimony-based ancestral state mapping and the previously created character matrix
- -  Running Pagel Tests: Pagel tests are means of measuring correlation between discrete traits and I specifically used Omnibus, Contingent Changes, and Temporal Order Tests in the software BayesTraitsV4 with the 1000 Bayesian trees, the Bayesian consensus tree along with the trait data matrix created in Mesquite 
+ -  Running Pagel Tests: Pagel tests are means of measuring correlation between discrete traits and I specifically used Omnibus, Contingent Changes, and Temporal Order Tests in the software BayesTraitsV4 with the 1000 Bayesian trees, the Bayesian consensus tree along with the trait data matrix created in Mesquite ![Screenshot](ReadME_images/Illustrated8RateDependentModel.png)
 
 Results:
 
-![Screenshot](ReadME_images/ConTree.png)
+- Baysesian Consensus Tree: ![Screenshot](ReadME_images/ConTree.png)
+- Corrrelated Traits Visualized on Mirror Tree: ![Screenshot](ReadME_images/MirrorTree.png)
+- Table of Pagel Tests results using trait data matrix and Bayesian consensus tree: ![Screenshot](ReadME_images/ConTreeTable.png)
+- Table of Pagel Tests results using trait data matrix and 1000B Bayesian tree: ![Screenshot](ReadME_images/1000TreesTable.png)
 
 Discussion:
 
